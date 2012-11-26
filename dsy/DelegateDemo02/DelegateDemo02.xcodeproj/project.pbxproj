@@ -15,6 +15,7 @@
 		75231EA81663B68300220E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75231EA71663B68300220E5E /* AppDelegate.m */; };
 		75231EAB1663B68300220E5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75231EAA1663B68300220E5E /* ViewController.m */; };
 		75231EAE1663B68300220E5E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75231EAC1663B68300220E5E /* ViewController.xib */; };
+		75231EBE1663BA4C00220E5E /* [code4app.com]天气预报_10817.zip in Resources */ = {isa = PBXBuildFile; fileRef = 75231EBD1663BA4C00220E5E /* [code4app.com]天气预报_10817.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		75231EA91663B68300220E5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75231EAA1663B68300220E5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75231EAD1663B68300220E5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		75231EBD1663BA4C00220E5E /* [code4app.com]天气预报_10817.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "[code4app.com]天气预报_10817.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		75231E881663B68300220E5E = {
 			isa = PBXGroup;
 			children = (
+				75231EBC1663BA4C00220E5E /* wonder */,
 				75231E9D1663B68300220E5E /* DelegateDemo02 */,
 				75231E961663B68300220E5E /* Frameworks */,
 				75231E941663B68300220E5E /* Products */,
@@ -96,6 +99,14 @@
 				75231EA51663B68300220E5E /* DelegateDemo02-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75231EBC1663BA4C00220E5E /* wonder */ = {
+			isa = PBXGroup;
+			children = (
+				75231EBD1663BA4C00220E5E /* [code4app.com]天气预报_10817.zip */,
+			);
+			path = wonder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				75231EA21663B68300220E5E /* InfoPlist.strings in Resources */,
 				75231EAE1663B68300220E5E /* ViewController.xib in Resources */,
+				75231EBE1663BA4C00220E5E /* [code4app.com]天气预报_10817.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +289,7 @@
 				75231EB31663B68300220E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
