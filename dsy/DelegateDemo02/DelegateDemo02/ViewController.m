@@ -17,12 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"123";
+    
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
+
+
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
