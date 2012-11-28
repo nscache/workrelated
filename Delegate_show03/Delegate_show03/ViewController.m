@@ -42,6 +42,8 @@
         // Release any retained subviews of the main view.
     }
 
+
+//调到下个页面，此时设置下个页的delegate方法给ViewController本身,这个协议及自定义的协议，协议的是由B来配置的，那么B里面可以检测到其是否将自己的delegate委托给某人,这里是委托给ViewController,让它来完成本来应该让B自己来做的事情，现在由A代劳;
 -(void)jp2next
     {
         ViewControllerB *bvc = [[ViewControllerB alloc] init];
