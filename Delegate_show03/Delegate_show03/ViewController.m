@@ -56,6 +56,9 @@
 //delegate's method
 
 
+//step02
+//这样viewController和viewcontrollerB就产生了通信
+
 -(void)showName:(NSString *)name
     {
         NSLog(@"将b的delegate指定给a,让a来实现");
