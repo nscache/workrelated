@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75297C631676C99300A38B09 /* ImageAndTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 75297C621676C99300A38B09 /* ImageAndTitle.m */; };
+		75FD691D1676224100C17C10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD691C1676224100C17C10 /* UIKit.framework */; };
+		75FD691F1676224100C17C10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD691E1676224100C17C10 /* Foundation.framework */; };
+		75FD69211676224100C17C10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FD69201676224100C17C10 /* CoreGraphics.framework */; };
+		75FD69271676224100C17C10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75FD69251676224100C17C10 /* InfoPlist.strings */; };
+		75FD69291676224100C17C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD69281676224100C17C10 /* main.m */; };
+		75FD692D1676224100C17C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD692C1676224100C17C10 /* AppDelegate.m */; };
+		75FD69301676224100C17C10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD692F1676224100C17C10 /* ViewController.m */; };
+		75FD693B167623A200C17C10 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FD693A167623A200C17C10 /* MyCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		75297C611676C99300A38B09 /* ImageAndTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageAndTitle.h; sourceTree = "<group>"; };
+		75297C621676C99300A38B09 /* ImageAndTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageAndTitle.m; sourceTree = "<group>"; };
+		75FD69181676224100C17C10 /* MakePhotoStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakePhotoStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FD691C1676224100C17C10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75FD691E1676224100C17C10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75FD69201676224100C17C10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75FD69241676224100C17C10 /* MakePhotoStyle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakePhotoStyle-Info.plist"; sourceTree = "<group>"; };
+		75FD69261676224100C17C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75FD69281676224100C17C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75FD692A1676224100C17C10 /* MakePhotoStyle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MakePhotoStyle-Prefix.pch"; sourceTree = "<group>"; };
+		75FD692B1676224100C17C10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75FD692C1676224100C17C10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75FD692E1676224100C17C10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75FD692F1676224100C17C10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75FD6939167623A200C17C10 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		75FD693A167623A200C17C10 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75FD69151676224100C17C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD691D1676224100C17C10 /* UIKit.framework in Frameworks */,
+				75FD691F1676224100C17C10 /* Foundation.framework in Frameworks */,
+				75FD69211676224100C17C10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75FD690D1676224100C17C10 = {
+			isa = PBXGroup;
+			children = (
+				75FD69221676224100C17C10 /* MakePhotoStyle */,
+				75FD691B1676224100C17C10 /* Frameworks */,
+				75FD69191676224100C17C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75FD69191676224100C17C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FD69181676224100C17C10 /* MakePhotoStyle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75FD691B1676224100C17C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75FD691C1676224100C17C10 /* UIKit.framework */,
+				75FD691E1676224100C17C10 /* Foundation.framework */,
+				75FD69201676224100C17C10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75FD69221676224100C17C10 /* MakePhotoStyle */ = {
+			isa = PBXGroup;
+			children = (
+				75FD692B1676224100C17C10 /* AppDelegate.h */,
+				75FD692C1676224100C17C10 /* AppDelegate.m */,
+				75FD692E1676224100C17C10 /* ViewController.h */,
+				75FD692F1676224100C17C10 /* ViewController.m */,
+				75FD6939167623A200C17C10 /* MyCell.h */,
+				75FD693A167623A200C17C10 /* MyCell.m */,
+				75297C611676C99300A38B09 /* ImageAndTitle.h */,
+				75297C621676C99300A38B09 /* ImageAndTitle.m */,
+				75FD69231676224100C17C10 /* Supporting Files */,
+			);
+			path = MakePhotoStyle;
+			sourceTree = "<group>";
+		};
+		75FD69231676224100C17C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FD69241676224100C17C10 /* MakePhotoStyle-Info.plist */,
+				75FD69251676224100C17C10 /* InfoPlist.strings */,
+				75FD69281676224100C17C10 /* main.m */,
+				75FD692A1676224100C17C10 /* MakePhotoStyle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75FD69171676224100C17C10 /* MakePhotoStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75FD69361676224100C17C10 /* Build configuration list for PBXNativeTarget "MakePhotoStyle" */;
+			buildPhases = (
+				75FD69141676224100C17C10 /* Sources */,
+				75FD69151676224100C17C10 /* Frameworks */,
+				75FD69161676224100C17C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakePhotoStyle;
+			productName = MakePhotoStyle;
+			productReference = 75FD69181676224100C17C10 /* MakePhotoStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75FD690F1676224100C17C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = bravesoft;
+			};
+			buildConfigurationList = 75FD69121676224100C17C10 /* Build configuration list for PBXProject "MakePhotoStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75FD690D1676224100C17C10;
+			productRefGroup = 75FD69191676224100C17C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FD69171676224100C17C10 /* MakePhotoStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75FD69161676224100C17C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD69271676224100C17C10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75FD69141676224100C17C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FD69291676224100C17C10 /* main.m in Sources */,
+				75FD692D1676224100C17C10 /* AppDelegate.m in Sources */,
+				75FD69301676224100C17C10 /* ViewController.m in Sources */,
+				75FD693B167623A200C17C10 /* MyCell.m in Sources */,
+				75297C631676C99300A38B09 /* ImageAndTitle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75FD69251676224100C17C10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75FD69261676224100C17C10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75FD69341676224100C17C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75FD69351676224100C17C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75FD69371676224100C17C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePhotoStyle/MakePhotoStyle-Prefix.pch";
+				INFOPLIST_FILE = "MakePhotoStyle/MakePhotoStyle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75FD69381676224100C17C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MakePhotoStyle/MakePhotoStyle-Prefix.pch";
+				INFOPLIST_FILE = "MakePhotoStyle/MakePhotoStyle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75FD69121676224100C17C10 /* Build configuration list for PBXProject "MakePhotoStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD69341676224100C17C10 /* Debug */,
+				75FD69351676224100C17C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FD69361676224100C17C10 /* Build configuration list for PBXNativeTarget "MakePhotoStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FD69371676224100C17C10 /* Debug */,
+				75FD69381676224100C17C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75FD690F1676224100C17C10 /* Project object */;
+}

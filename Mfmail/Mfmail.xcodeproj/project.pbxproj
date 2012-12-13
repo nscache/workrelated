@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7508BE0316797AF300A8A728 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508BE0216797AF300A8A728 /* UIKit.framework */; };
+		7508BE0516797AF300A8A728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508BE0416797AF300A8A728 /* Foundation.framework */; };
+		7508BE0716797AF300A8A728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508BE0616797AF300A8A728 /* CoreGraphics.framework */; };
+		7508BE0D16797AF300A8A728 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE0B16797AF300A8A728 /* InfoPlist.strings */; };
+		7508BE0F16797AF300A8A728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508BE0E16797AF300A8A728 /* main.m */; };
+		7508BE1316797AF300A8A728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508BE1216797AF300A8A728 /* AppDelegate.m */; };
+		7508BE1516797AF300A8A728 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE1416797AF300A8A728 /* Default.png */; };
+		7508BE1716797AF300A8A728 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE1616797AF300A8A728 /* Default@2x.png */; };
+		7508BE1916797AF300A8A728 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE1816797AF300A8A728 /* Default-568h@2x.png */; };
+		7508BE1C16797AF300A8A728 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508BE1B16797AF300A8A728 /* ViewController.m */; };
+		7508BE1F16797AF300A8A728 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE1D16797AF300A8A728 /* ViewController.xib */; };
+		7508BE2616797B7700A8A728 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7508BE2516797B7700A8A728 /* MessageUI.framework */; };
+		7508BE2A16797E3900A8A728 /* ViewController22.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508BE2816797E3900A8A728 /* ViewController22.m */; };
+		7508BE2B16797E3900A8A728 /* ViewController22.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7508BE2916797E3900A8A728 /* ViewController22.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7508BDFE16797AF300A8A728 /* Mfmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mfmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7508BE0216797AF300A8A728 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7508BE0416797AF300A8A728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7508BE0616797AF300A8A728 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7508BE0A16797AF300A8A728 /* Mfmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mfmail-Info.plist"; sourceTree = "<group>"; };
+		7508BE0C16797AF300A8A728 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7508BE0E16797AF300A8A728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7508BE1016797AF300A8A728 /* Mfmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mfmail-Prefix.pch"; sourceTree = "<group>"; };
+		7508BE1116797AF300A8A728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7508BE1216797AF300A8A728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7508BE1416797AF300A8A728 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7508BE1616797AF300A8A728 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7508BE1816797AF300A8A728 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7508BE1A16797AF300A8A728 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7508BE1B16797AF300A8A728 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7508BE1E16797AF300A8A728 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7508BE2516797B7700A8A728 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7508BE2716797E3900A8A728 /* ViewController22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController22.h; sourceTree = "<group>"; };
+		7508BE2816797E3900A8A728 /* ViewController22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController22.m; sourceTree = "<group>"; };
+		7508BE2916797E3900A8A728 /* ViewController22.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController22.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7508BDFB16797AF300A8A728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7508BE2616797B7700A8A728 /* MessageUI.framework in Frameworks */,
+				7508BE0316797AF300A8A728 /* UIKit.framework in Frameworks */,
+				7508BE0516797AF300A8A728 /* Foundation.framework in Frameworks */,
+				7508BE0716797AF300A8A728 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7508BDF316797AF300A8A728 = {
+			isa = PBXGroup;
+			children = (
+				7508BE2516797B7700A8A728 /* MessageUI.framework */,
+				7508BE0816797AF300A8A728 /* Mfmail */,
+				7508BE0116797AF300A8A728 /* Frameworks */,
+				7508BDFF16797AF300A8A728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7508BDFF16797AF300A8A728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7508BDFE16797AF300A8A728 /* Mfmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7508BE0116797AF300A8A728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7508BE0216797AF300A8A728 /* UIKit.framework */,
+				7508BE0416797AF300A8A728 /* Foundation.framework */,
+				7508BE0616797AF300A8A728 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7508BE0816797AF300A8A728 /* Mfmail */ = {
+			isa = PBXGroup;
+			children = (
+				7508BE1116797AF300A8A728 /* AppDelegate.h */,
+				7508BE1216797AF300A8A728 /* AppDelegate.m */,
+				7508BE1A16797AF300A8A728 /* ViewController.h */,
+				7508BE1B16797AF300A8A728 /* ViewController.m */,
+				7508BE2716797E3900A8A728 /* ViewController22.h */,
+				7508BE2816797E3900A8A728 /* ViewController22.m */,
+				7508BE2916797E3900A8A728 /* ViewController22.xib */,
+				7508BE1D16797AF300A8A728 /* ViewController.xib */,
+				7508BE0916797AF300A8A728 /* Supporting Files */,
+			);
+			path = Mfmail;
+			sourceTree = "<group>";
+		};
+		7508BE0916797AF300A8A728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7508BE0A16797AF300A8A728 /* Mfmail-Info.plist */,
+				7508BE0B16797AF300A8A728 /* InfoPlist.strings */,
+				7508BE0E16797AF300A8A728 /* main.m */,
+				7508BE1016797AF300A8A728 /* Mfmail-Prefix.pch */,
+				7508BE1416797AF300A8A728 /* Default.png */,
+				7508BE1616797AF300A8A728 /* Default@2x.png */,
+				7508BE1816797AF300A8A728 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7508BDFD16797AF300A8A728 /* Mfmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7508BE2216797AF300A8A728 /* Build configuration list for PBXNativeTarget "Mfmail" */;
+			buildPhases = (
+				7508BDFA16797AF300A8A728 /* Sources */,
+				7508BDFB16797AF300A8A728 /* Frameworks */,
+				7508BDFC16797AF300A8A728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mfmail;
+			productName = Mfmail;
+			productReference = 7508BDFE16797AF300A8A728 /* Mfmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7508BDF516797AF300A8A728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = bravesoft;
+			};
+			buildConfigurationList = 7508BDF816797AF300A8A728 /* Build configuration list for PBXProject "Mfmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7508BDF316797AF300A8A728;
+			productRefGroup = 7508BDFF16797AF300A8A728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7508BDFD16797AF300A8A728 /* Mfmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7508BDFC16797AF300A8A728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7508BE0D16797AF300A8A728 /* InfoPlist.strings in Resources */,
+				7508BE1516797AF300A8A728 /* Default.png in Resources */,
+				7508BE1716797AF300A8A728 /* Default@2x.png in Resources */,
+				7508BE1916797AF300A8A728 /* Default-568h@2x.png in Resources */,
+				7508BE1F16797AF300A8A728 /* ViewController.xib in Resources */,
+				7508BE2B16797E3900A8A728 /* ViewController22.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7508BDFA16797AF300A8A728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7508BE0F16797AF300A8A728 /* main.m in Sources */,
+				7508BE1316797AF300A8A728 /* AppDelegate.m in Sources */,
+				7508BE1C16797AF300A8A728 /* ViewController.m in Sources */,
+				7508BE2A16797E3900A8A728 /* ViewController22.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7508BE0B16797AF300A8A728 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7508BE0C16797AF300A8A728 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7508BE1D16797AF300A8A728 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7508BE1E16797AF300A8A728 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7508BE2016797AF300A8A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BRAVESOFT.INC";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26F72FE8-1080-4B72-BFAB-63C5FB8B76A6";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7508BE2116797AF300A8A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: BRAVESOFT.INC";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26F72FE8-1080-4B72-BFAB-63C5FB8B76A6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7508BE2316797AF300A8A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mfmail/Mfmail-Prefix.pch";
+				INFOPLIST_FILE = "Mfmail/Mfmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7508BE2416797AF300A8A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mfmail/Mfmail-Prefix.pch";
+				INFOPLIST_FILE = "Mfmail/Mfmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7508BDF816797AF300A8A728 /* Build configuration list for PBXProject "Mfmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7508BE2016797AF300A8A728 /* Debug */,
+				7508BE2116797AF300A8A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7508BE2216797AF300A8A728 /* Build configuration list for PBXNativeTarget "Mfmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7508BE2316797AF300A8A728 /* Debug */,
+				7508BE2416797AF300A8A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7508BDF516797AF300A8A728 /* Project object */;
+}
