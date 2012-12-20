@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		755F80E81683163700D4375A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755F80E71683163700D4375A /* Foundation.framework */; };
+		755F80EB1683163700D4375A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 755F80EA1683163700D4375A /* main.m */; };
+		755F80EF1683163700D4375A /* singleltonStudy01.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 755F80EE1683163700D4375A /* singleltonStudy01.1 */; };
+		755F80F71683165500D4375A /* UserContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 755F80F61683165500D4375A /* UserContext.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		755F80E11683163700D4375A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				755F80EF1683163700D4375A /* singleltonStudy01.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		755F80E31683163700D4375A /* singleltonStudy01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = singleltonStudy01; sourceTree = BUILT_PRODUCTS_DIR; };
+		755F80E71683163700D4375A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		755F80EA1683163700D4375A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		755F80ED1683163700D4375A /* singleltonStudy01-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "singleltonStudy01-Prefix.pch"; sourceTree = "<group>"; };
+		755F80EE1683163700D4375A /* singleltonStudy01.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = singleltonStudy01.1; sourceTree = "<group>"; };
+		755F80F51683165500D4375A /* UserContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserContext.h; sourceTree = "<group>"; };
+		755F80F61683165500D4375A /* UserContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserContext.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755F80E01683163700D4375A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755F80E81683163700D4375A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		755F80D81683163700D4375A = {
+			isa = PBXGroup;
+			children = (
+				755F80E91683163700D4375A /* singleltonStudy01 */,
+				755F80E61683163700D4375A /* Frameworks */,
+				755F80E41683163700D4375A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755F80E41683163700D4375A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755F80E31683163700D4375A /* singleltonStudy01 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755F80E61683163700D4375A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				755F80E71683163700D4375A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		755F80E91683163700D4375A /* singleltonStudy01 */ = {
+			isa = PBXGroup;
+			children = (
+				755F80EA1683163700D4375A /* main.m */,
+				755F80F51683165500D4375A /* UserContext.h */,
+				755F80F61683165500D4375A /* UserContext.m */,
+				755F80EE1683163700D4375A /* singleltonStudy01.1 */,
+				755F80EC1683163700D4375A /* Supporting Files */,
+			);
+			path = singleltonStudy01;
+			sourceTree = "<group>";
+		};
+		755F80EC1683163700D4375A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				755F80ED1683163700D4375A /* singleltonStudy01-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755F80E21683163700D4375A /* singleltonStudy01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755F80F21683163700D4375A /* Build configuration list for PBXNativeTarget "singleltonStudy01" */;
+			buildPhases = (
+				755F80DF1683163700D4375A /* Sources */,
+				755F80E01683163700D4375A /* Frameworks */,
+				755F80E11683163700D4375A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = singleltonStudy01;
+			productName = singleltonStudy01;
+			productReference = 755F80E31683163700D4375A /* singleltonStudy01 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755F80DA1683163700D4375A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = bravesoft;
+			};
+			buildConfigurationList = 755F80DD1683163700D4375A /* Build configuration list for PBXProject "singleltonStudy01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 755F80D81683163700D4375A;
+			productRefGroup = 755F80E41683163700D4375A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755F80E21683163700D4375A /* singleltonStudy01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755F80DF1683163700D4375A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755F80EB1683163700D4375A /* main.m in Sources */,
+				755F80F71683165500D4375A /* UserContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		755F80F01683163700D4375A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		755F80F11683163700D4375A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		755F80F31683163700D4375A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "singleltonStudy01/singleltonStudy01-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		755F80F41683163700D4375A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "singleltonStudy01/singleltonStudy01-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755F80DD1683163700D4375A /* Build configuration list for PBXProject "singleltonStudy01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755F80F01683163700D4375A /* Debug */,
+				755F80F11683163700D4375A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755F80F21683163700D4375A /* Build configuration list for PBXNativeTarget "singleltonStudy01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755F80F31683163700D4375A /* Debug */,
+				755F80F41683163700D4375A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755F80DA1683163700D4375A /* Project object */;
+}
