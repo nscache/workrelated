@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-
-@interface ViewController : UIViewController<CLLocationManagerDelegate>
+#import <MapKit/MapKit.h>
+@interface ViewController : UIViewController<CLLocationManagerDelegate,MKMapViewDelegate>
 {
     CLLocationManager *cllocationManager;
     UILabel *jingdu;
     UILabel *weidu;
+    UILabel *locationInfo;
+    MKMapView *_mapView;
     
 }
 

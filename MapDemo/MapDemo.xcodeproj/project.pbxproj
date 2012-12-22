@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75705D061685A5ED00D43C62 /* DemoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75705D051685A5ED00D43C62 /* DemoAnnotation.m */; };
 		7592B7B316845573007C271A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592B7B216845573007C271A /* UIKit.framework */; };
 		7592B7B516845573007C271A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592B7B416845573007C271A /* Foundation.framework */; };
 		7592B7B716845573007C271A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592B7B616845573007C271A /* CoreGraphics.framework */; };
@@ -16,9 +17,12 @@
 		7592B7C616845573007C271A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7592B7C516845573007C271A /* ViewController.m */; };
 		7592B7C916845573007C271A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7592B7C716845573007C271A /* ViewController.xib */; };
 		7592B7D016845642007C271A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592B7CF16845642007C271A /* CoreLocation.framework */; };
+		7592B7DE16858663007C271A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7592B7DD16858663007C271A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75705D041685A5ED00D43C62 /* DemoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAnnotation.h; sourceTree = "<group>"; };
+		75705D051685A5ED00D43C62 /* DemoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAnnotation.m; sourceTree = "<group>"; };
 		7592B7AE16845573007C271A /* MapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7592B7B216845573007C271A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7592B7B416845573007C271A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,6 +37,7 @@
 		7592B7C516845573007C271A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7592B7C816845573007C271A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		7592B7CF16845642007C271A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7592B7DD16858663007C271A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7592B7DE16858663007C271A /* MapKit.framework in Frameworks */,
 				7592B7D016845642007C271A /* CoreLocation.framework in Frameworks */,
 				7592B7B316845573007C271A /* UIKit.framework in Frameworks */,
 				7592B7B516845573007C271A /* Foundation.framework in Frameworks */,
@@ -53,6 +59,7 @@
 		7592B7A316845573007C271A = {
 			isa = PBXGroup;
 			children = (
+				7592B7DD16858663007C271A /* MapKit.framework */,
 				7592B7CF16845642007C271A /* CoreLocation.framework */,
 				7592B7B816845573007C271A /* MapDemo */,
 				7592B7B116845573007C271A /* Frameworks */,
@@ -86,6 +93,8 @@
 				7592B7C416845573007C271A /* ViewController.h */,
 				7592B7C516845573007C271A /* ViewController.m */,
 				7592B7C716845573007C271A /* ViewController.xib */,
+				75705D041685A5ED00D43C62 /* DemoAnnotation.h */,
+				75705D051685A5ED00D43C62 /* DemoAnnotation.m */,
 				7592B7B916845573007C271A /* Supporting Files */,
 			);
 			path = MapDemo;
@@ -168,6 +177,7 @@
 				7592B7BF16845573007C271A /* main.m in Sources */,
 				7592B7C316845573007C271A /* AppDelegate.m in Sources */,
 				7592B7C616845573007C271A /* ViewController.m in Sources */,
+				75705D061685A5ED00D43C62 /* DemoAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +291,7 @@
 				7592B7CE16845573007C271A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
