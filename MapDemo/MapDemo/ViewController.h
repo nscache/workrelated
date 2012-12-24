@@ -16,6 +16,7 @@
     UILabel *weidu;
     UILabel *locationInfo;
     MKMapView *_mapView;
+    UILabel *timeStamp;
     
 }
 
