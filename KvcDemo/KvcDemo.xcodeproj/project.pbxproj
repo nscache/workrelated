@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756324D5168C9AC000197F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756324D4168C9AC000197F42 /* Foundation.framework */; };
+		756324D8168C9AC000197F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 756324D7168C9AC000197F42 /* main.m */; };
+		756324DC168C9AC000197F42 /* KvcDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 756324DB168C9AC000197F42 /* KvcDemo.1 */; };
+		756324E4168C9AD100197F42 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 756324E3168C9AD100197F42 /* Child.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		756324CE168C9AC000197F42 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				756324DC168C9AC000197F42 /* KvcDemo.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		756324D0168C9AC000197F42 /* KvcDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KvcDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		756324D4168C9AC000197F42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		756324D7168C9AC000197F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		756324DA168C9AC000197F42 /* KvcDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KvcDemo-Prefix.pch"; sourceTree = "<group>"; };
+		756324DB168C9AC000197F42 /* KvcDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KvcDemo.1; sourceTree = "<group>"; };
+		756324E2168C9AD100197F42 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		756324E3168C9AD100197F42 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756324CD168C9AC000197F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756324D5168C9AC000197F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756324C5168C9AC000197F42 = {
+			isa = PBXGroup;
+			children = (
+				756324D6168C9AC000197F42 /* KvcDemo */,
+				756324D3168C9AC000197F42 /* Frameworks */,
+				756324D1168C9AC000197F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756324D1168C9AC000197F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756324D0168C9AC000197F42 /* KvcDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756324D3168C9AC000197F42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756324D4168C9AC000197F42 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756324D6168C9AC000197F42 /* KvcDemo */ = {
+			isa = PBXGroup;
+			children = (
+				756324D7168C9AC000197F42 /* main.m */,
+				756324E2168C9AD100197F42 /* Child.h */,
+				756324E3168C9AD100197F42 /* Child.m */,
+				756324DB168C9AC000197F42 /* KvcDemo.1 */,
+				756324D9168C9AC000197F42 /* Supporting Files */,
+			);
+			path = KvcDemo;
+			sourceTree = "<group>";
+		};
+		756324D9168C9AC000197F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				756324DA168C9AC000197F42 /* KvcDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756324CF168C9AC000197F42 /* KvcDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756324DF168C9AC000197F42 /* Build configuration list for PBXNativeTarget "KvcDemo" */;
+			buildPhases = (
+				756324CC168C9AC000197F42 /* Sources */,
+				756324CD168C9AC000197F42 /* Frameworks */,
+				756324CE168C9AC000197F42 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KvcDemo;
+			productName = KvcDemo;
+			productReference = 756324D0168C9AC000197F42 /* KvcDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756324C7168C9AC000197F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Big-Sea";
+			};
+			buildConfigurationList = 756324CA168C9AC000197F42 /* Build configuration list for PBXProject "KvcDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 756324C5168C9AC000197F42;
+			productRefGroup = 756324D1168C9AC000197F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756324CF168C9AC000197F42 /* KvcDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756324CC168C9AC000197F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756324D8168C9AC000197F42 /* main.m in Sources */,
+				756324E4168C9AD100197F42 /* Child.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		756324DD168C9AC000197F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		756324DE168C9AC000197F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		756324E0168C9AC000197F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KvcDemo/KvcDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		756324E1168C9AC000197F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KvcDemo/KvcDemo-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756324CA168C9AC000197F42 /* Build configuration list for PBXProject "KvcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756324DD168C9AC000197F42 /* Debug */,
+				756324DE168C9AC000197F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756324DF168C9AC000197F42 /* Build configuration list for PBXNativeTarget "KvcDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756324E0168C9AC000197F42 /* Debug */,
+				756324E1168C9AC000197F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756324C7168C9AC000197F42 /* Project object */;
+}

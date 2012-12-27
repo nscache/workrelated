@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7592B7AD16845573007C271A"
-               BuildableName = "MapDemo.app"
-               BlueprintName = "MapDemo"
-               ReferencedContainer = "container:MapDemo.xcodeproj">
+               BlueprintIdentifier = "756324CF168C9AC000197F42"
+               BuildableName = "KvcDemo"
+               BlueprintName = "KvcDemo"
+               ReferencedContainer = "container:KvcDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7592B7AD16845573007C271A"
-            BuildableName = "MapDemo.app"
-            BlueprintName = "MapDemo"
-            ReferencedContainer = "container:MapDemo.xcodeproj">
+            BlueprintIdentifier = "756324CF168C9AC000197F42"
+            BuildableName = "KvcDemo"
+            BlueprintName = "KvcDemo"
+            ReferencedContainer = "container:KvcDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -47,15 +47,14 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      enableOpenGLFrameCaptureMode = "0"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7592B7AD16845573007C271A"
-            BuildableName = "MapDemo.app"
-            BlueprintName = "MapDemo"
-            ReferencedContainer = "container:MapDemo.xcodeproj">
+            BlueprintIdentifier = "756324CF168C9AC000197F42"
+            BuildableName = "KvcDemo"
+            BlueprintName = "KvcDemo"
+            ReferencedContainer = "container:KvcDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7592B7AD16845573007C271A"
-            BuildableName = "MapDemo.app"
-            BlueprintName = "MapDemo"
-            ReferencedContainer = "container:MapDemo.xcodeproj">
+            BlueprintIdentifier = "756324CF168C9AC000197F42"
+            BuildableName = "KvcDemo"
+            BlueprintName = "KvcDemo"
+            ReferencedContainer = "container:KvcDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
